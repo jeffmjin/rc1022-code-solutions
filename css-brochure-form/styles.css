@@ -1,5 +1,4 @@
 body {
-  text-align: center;
   font-family: "Brandon Grotesque", sans-serif;
 }
 
@@ -7,6 +6,7 @@ h2 {
   font-size: 18px;
   font-weight: 500;
   color: rgb(236 92 87);
+  text-align: center;
 }
 
 input {
@@ -24,8 +24,7 @@ input::placeholder {
 label {
   font-weight: bold;
   font-size: 11px;
-  margin-right: 10px;
-  text-align: start;
+  margin-left: 0.5rem;
 }
 
 select {
@@ -44,21 +43,14 @@ button {
   border: none;
   border-radius: 15px;
   margin-top: 10px;
-  margin-left: 20rem;
+  text-align: right;
 }
 
-.label-email {
-  margin-right: 18.5rem;
+section {
+  width: 400px;
+  margin: 0 auto;
 }
 
-.label-name {
-  margin-right: 22rem;
-}
-
-.label-location {
-  margin-right: 16rem;
-}
-
-.label-engineer {
-  margin-right: 2.5rem;
+.button {
+  text-align: right;
 }
