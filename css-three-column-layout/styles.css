@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(26 150 218);
+  font-family: Lato, sans-serif;
+}
+
+h2,
+h3 {
+  color: white;
+}
+
+img {
+  background-color: white;
+  clip-path: circle();
+  padding: 30px;
+}
+
+.column-one-third {
+  padding: 5px 10px;
+}
+
+p {
+  color: rgb(221 221 221);
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 28px;
+}
