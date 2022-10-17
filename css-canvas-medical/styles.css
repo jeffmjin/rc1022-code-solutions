@@ -1,0 +1,146 @@
+header {
+  border-bottom: 1px solid rgb(162 162 162);
+}
+
+.column-one-fifth {
+  flex-basis: 20%;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+}
+
+.blue-logo {
+  width: 25%;
+}
+
+.button-header {
+  padding: 10px 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.hero-image {
+  position: relative;
+  background-size: cover;
+  background-image: url("images/hero.jpg");
+  height: 550px;
+  width: 70rem;
+  margin: 4rem 6rem;
+}
+
+.position-absolute {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+  width: 45%;
+  font-size: 35px;
+}
+
+.position-absolute-button {
+  position: absolute;
+  top: 25rem;
+  left: 4rem;
+  padding: 10px 40px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.position-absolute-p {
+  position: absolute;
+  top: 10rem;
+  left: 4rem;
+  width: 50%;
+  font-size: 20px;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 40%));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.address {
+  margin-left: 11rem;
+  margin-top: 2rem;
+}
+
+.address-two {
+  margin-top: 2rem;
+  margin-left: 8rem;
+}
+
+.address-title {
+  margin-top: 4rem;
+  font-size: 30px;
+}
+
+.address-title-p {
+  padding: 0 20rem;
+}
+
+.sec-background {
+  height: 30rem;
+  background-color: rgb(250 250 250);
+}
+
+.ready-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-left: 25rem;
+}
+
+.ready {
+  margin-left: 2rem;
+}
+
+.ready-h {
+  font-size: 25px;
+}
+
+.sec-background-two {
+  background-color: rgb(82 83 81);
+  height: 20rem;
+}
+
+.white-logo {
+  width: 20%;
+}
+
+.address-three {
+  margin: 5rem 6rem;
+}
+
+.links {
+  margin-top: 5rem;
+}
+
+footer {
+  background-color: rgb(250 250 250);
+  height: 5rem;
+}
+
+.footer-p {
+  margin: 2rem 3rem;
+}
+
+.footer-p-two {
+  margin-top: 2rem;
+}
