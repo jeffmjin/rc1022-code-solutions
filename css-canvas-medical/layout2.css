@@ -1,0 +1,32 @@
+.display-flex {
+  display: flex;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.font-lightgray {
+  color: rgb(162 162 162);
+}
+
+.font-blue {
+  color: rgb(70 109 135);
+}
+
+.font-white {
+  color: white;
+}
+
+.button-background {
+  background-color: rgb(41 67 99);
+  border: none;
+}
