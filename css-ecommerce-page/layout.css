@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+}
+
+.column-one-fifth {
+  flex-basis: 20%;
+}
+
+.font-gray {
+  color: rgb(215 215 215);
+}
+
+.highlight {
+  background-color: rgb(255 241 231);
+}
+
+.justify-content {
+  justify-content: center;
+}
