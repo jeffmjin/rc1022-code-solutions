@@ -1,0 +1,36 @@
+body {
+  margin: auto;
+}
+
+div.on {
+  background-color: rgb(254 249 241);
+  display: flex;
+  justify-content: center;
+  padding: 20rem 0;
+  width: 100%;
+}
+
+button.on {
+  background-color: rgb(249 234 132);
+  border-radius: 50%;
+  padding: 10rem;
+  border: none;
+  margin-top: 1rem;
+}
+
+div.off {
+  background-color: rgb(17 17 17);
+  display: flex;
+  justify-content: center;
+  padding: 20rem 0;
+  width: 100%;
+}
+
+button.off {
+  background-color: rgb(37 37 37);
+  box-shadow: 0 -25px rgb(12 12 12);
+  border-radius: 50%;
+  padding: 10rem;
+  border: none;
+  margin-top: 1rem;
+}
