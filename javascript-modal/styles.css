@@ -1,0 +1,64 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10rem;
+  background-color: white;
+  justify-content: center;
+  width: 20%;
+  height: 20%;
+  border-radius: 5px;
+}
+
+.no-display {
+  display: none;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(50 50 50 / 95%);
+}
+
+.button {
+  position: relative;
+}
+
+.modal {
+  color: white;
+  background-color: rgb(74 74 232);
+  border: none;
+  font-size: 35px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  box-shadow: 0 3px rgb(154 155 155);
+}
+
+.pop-up {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.pop-up-button {
+  color: white;
+  background-color: rgb(235 93 93);
+  border: none;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: 0 3px rgb(154 155 155);
+}
+
+h2 {
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
