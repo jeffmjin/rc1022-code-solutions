@@ -9,13 +9,12 @@ const operator = process.argv[3];
 
 if (operator === 'plus') {
   console.log('result:', add(a, b));
-}
-if (operator === 'minus') {
+} else if (operator === 'minus') {
   console.log('result:', subtract(a, b));
-}
-if (operator === 'times') {
+} else if (operator === 'times') {
   console.log('result:', multiply(a, b));
-}
-if (operator === 'over') {
+} else if (operator === 'over') {
   console.log('result:', divide(a, b));
+} else {
+  console.log('invalid operation');
 }
