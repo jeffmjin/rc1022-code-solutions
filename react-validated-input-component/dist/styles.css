@@ -1,0 +1,26 @@
+label {
+  display: block;
+}
+
+input {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  box-shadow: 1px 1px;
+  padding-right: 10px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.fa-x {
+  color: red;
+}
+
+.fa-check {
+  color: rgb(107 168 79);
+}
+
+.red {
+  color: red;
+}
