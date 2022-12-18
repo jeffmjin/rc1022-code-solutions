@@ -1,0 +1,29 @@
+ul {
+  position: relative;
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgb(0 0 0 80%);
+}
+
+.fa-solid {
+  cursor: pointer;
+}
+
+.display {
+  text-align: left;
+}
